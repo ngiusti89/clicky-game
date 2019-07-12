@@ -1,3 +1,20 @@
+# Clicky Memory Game
+
+## Instructions
+
+1. The app will show different images. 
+
+2. The user should click on an image.
+
+3. Every time an image is clicked, the images rendered to the page will shuffle themselves in a random order.
+
+4. The app will keep track of the user's score.
+
+5. Once the user's guesses incorrectly, the game will restart.
+
+- - -
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
