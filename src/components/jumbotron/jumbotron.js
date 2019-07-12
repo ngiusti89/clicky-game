@@ -1,11 +1,11 @@
 import React from "react";
 
-function Wrapper() {
+function Jumbotron() {
     return (
-        <div>
+        <div className="jumbotron">
             <h1>Clicky Game</h1>
         </div>
     );
 }
 
-export default Wrapper;
+export default Jumbotron;

@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "name": "Catdog",
+        "image": "catdog.jpeg"
+    },
+    {
+        "id": 2,
+        "name": "Chuckie",
+        "image": "chuckie.jpeg"
+    },
+    {
+        "id": 3,
+        "name": "Debbie Thornberry",
+        "image": "debbie-thornberry.jpeg"
+    },
+    {
+        "id": 4,
+        "name": "Gir",
+        "image": "gir.jpeg"
+    },
+    {
+        "id": 5,
+        "name": "Helga Pataki",
+        "image": "helga-pataki.jpeg"
+    },
+    {
+        "id": 6,
+        "name": "Ickis",
+        "image": "ickis.jpeg"
+    },
+    {
+        "id": 7,
+        "name": "Reggie Rocket",
+        "image": "reggie-rocket.jpeg"
+    },
+    {
+        "id": 8,
+        "name": "Rocko",
+        "image": "rocko.jpeg"
+    },
+    {
+        "id": 9,
+        "name": "Skeeter",
+        "image": "skeeter.jpeg"
+    },
+    {
+        "id": 10,
+        "name": "Stimpy",
+        "image": "stimpy.jpeg"
+    }
+]
