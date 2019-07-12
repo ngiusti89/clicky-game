@@ -1,8 +1,8 @@
-import React from 'react';
-import Card from './components/card'
-import Jumbotron from './components/jumbotron';
-import Wrapper from './components/wrapper'
-import cards from './cards.json'
+import React, { Component } from "react";
+import Card from "./components/Card";
+import Jumbotron from "./components/Jumbotron";
+import Wrapper from "./components/Wrapper";
+import cards from "./cards.json";
 
 class App extends Component {
   state = {
@@ -13,14 +13,9 @@ class App extends Component {
   render() {
     return (
       <Wrapper>
-        <Jumbotron
-          score={this.state.score}
-        />
+        <Jumbotron score={this.state.score} />
         {this.state.cards.map(card => (
-          <Card
-            id={card.id}
-            image={card.image}
-          />
+          <Card id={card.id} image={card.image} />
         ))}
       </Wrapper>
     );
