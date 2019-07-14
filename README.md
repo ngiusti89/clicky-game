@@ -10,7 +10,7 @@
 
 4. The app will keep track of the user's score.
 
-5. Once the user's guesses incorrectly, the game will restart.
+5. If the user clicks all 10 images, they win!
 
 - - -
 
