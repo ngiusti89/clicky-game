@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Card from "./components/Card";
-import Navbar from "./components/NavBar"
+import Navbar from "./components/NavBar";
 import Jumbotron from "./components/Jumbotron";
 import Wrapper from "./components/Wrapper";
 import Score from "./components/Score";
@@ -20,7 +20,7 @@ class App extends Component {
 
     if (clickedCard.includes(id)) {
       this.setState({ clickedCard: [], score: 0, status: "Game Over" });
-      console.log("you lose")
+      console.log("you lose");
       return;
     } else {
       clickedCard.push(id);

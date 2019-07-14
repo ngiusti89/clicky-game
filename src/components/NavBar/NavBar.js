@@ -3,7 +3,7 @@ import "./navBar.css";
 
 const NavBar = () => (
     <div className="navbar">
-        <h1>Cartoon Clicky Game!</h1>
+        <h1>90s Nick Click Game!</h1>
     </div>
 );
 
