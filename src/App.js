@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Card from "./components/Card";
+import Navbar from "./components/NavBar"
 import Jumbotron from "./components/Jumbotron";
 import Wrapper from "./components/Wrapper";
 import Score from "./components/Score";
@@ -19,6 +20,7 @@ class App extends Component {
 
     if (clickedCard.includes(id)) {
       this.setState({ clickedCard: [], score: 0, status: "Game Over" });
+      console.log("you lose")
       return;
     } else {
       clickedCard.push(id);
@@ -46,6 +48,7 @@ class App extends Component {
   render() {
     return (
       <Wrapper>
+        <Navbar />
         <Jumbotron />
         <Score total={this.state.score} goal={10} status={this.state.status} />
         {this.state.cards.map(card => (
